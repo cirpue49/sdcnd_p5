@@ -60,15 +60,17 @@ windows = small_windows + middle_windows + big_windows + smaller_windows
 
 ####2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to try to minimize false positives and reliably detect cars?
 
-Ultimately I searched on two scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result. In addition, I used a heat map to remove false positive. In the heat map, I set threshold 3 and sucessfully removed false positives.
+Ultimately I searched on two scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result. I used a heat map to remove false positive. In the heat map, I set threshold 3 and sucessfully removed false positives. 
+
+Tracking made my detection more stable. I tracked last 5 frames `d= deque(maxlen = 5)`. 
 
 ![alt text][image4]
 
-####3 Result
+####3. Result
 
-[Project Video](https://www.youtube.com/watch?v=Ywa9UDmwuj0&feature=youtu.be)
+[Project Video](https://www.youtube.com/watch?v=gbC6VVT8U1s&feature=youtu.be)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ywa9UDmwuj0/0.jpg)](https://www.youtube.com/watch?v=vySgXdDJlrs)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gbC6VVT8U1s/0.jpg)](https://www.youtube.com/watch?v=vySgXdDJlrs)
 
 ---
 

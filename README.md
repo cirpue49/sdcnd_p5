@@ -68,7 +68,7 @@ Tracking made my detection more stable. I tracked last 5 frames `d= deque(maxlen
 
 [Project Video](https://www.youtube.com/watch?v=gbC6VVT8U1s&feature=youtu.be)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gbC6VVT8U1s/0.jpg)](https://www.youtube.com/watch?v=vySgXdDJlrs)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gbC6VVT8U1s/0.jpg)](https://www.youtube.com/watch?v=gbC6VVT8U1s)
 
 ---
 
